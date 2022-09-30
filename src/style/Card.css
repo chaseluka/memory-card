@@ -1,0 +1,11 @@
+img {
+  height: 9.75rem;
+  width: 13rem;
+  background-color: #555;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #fff, -8px 0 30px #eee, 6px 0 30px #eee;
+}

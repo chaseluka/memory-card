@@ -1,0 +1,70 @@
+.container,
+.score-container,
+.score-type,
+.title-container,
+.text-container {
+  display: flex;
+}
+
+.title-container,
+.text-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  align-items: center;
+}
+
+.container {
+  gap: min(4vh, 50px);
+}
+
+.title-container {
+  height: clamp(40px, 9vh, 80px);
+  background-color: #7a1212;
+  width: 100%;
+}
+
+.title {
+  font-size: clamp(25px, 4vmax, 3rem);
+  color: #eee;
+}
+
+.container,
+.score-container,
+.text-container {
+  flex-direction: column;
+}
+
+.text-container {
+  gap: min(1vh, 1rem);
+  color: #111;
+}
+
+.score-container {
+  align-items: flex-end;
+}
+
+.info {
+  font-size: clamp(8px, 1.5vmax, 15px);
+}
+
+.score-type {
+  gap: 5px;
+  font-size: clamp(15px, 2vmax, 25px);
+}
+
+#cards {
+  width: 95%;
+  --n: 5;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(13rem, (100% - (var(--n) - 1) * 20px) / var(--n)), 1fr)
+  );
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 20px;
+}
