@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.09ff9196.css",
+    "main.js": "/memory-card/static/js/main.3d8bca44.js",
+    "static/media/luka.png": "/memory-card/static/media/luka.75b4969b3505f7702215.png",
+    "static/media/tatum.png": "/memory-card/static/media/tatum.3fa54a37e2de11cad888.png",
+    "static/media/curry.png": "/memory-card/static/media/curry.16dd900bb8acee199d61.png",
+    "static/media/lebron.png": "/memory-card/static/media/lebron.491c0990a436dad79a69.png",
+    "static/media/embiid.png": "/memory-card/static/media/embiid.62c0dff2857d394b726a.png",
+    "static/media/lillard.png": "/memory-card/static/media/lillard.19afb07a6f8d48ca7523.png",
+    "static/media/jokic.png": "/memory-card/static/media/jokic.c1a194f840a10486b64d.png",
+    "static/media/kawhi.png": "/memory-card/static/media/kawhi.47a184ef83b25062623a.png",
+    "static/media/durant.png": "/memory-card/static/media/durant.baf4cb5d7dba931ad28a.png",
+    "static/media/giannis.png": "/memory-card/static/media/giannis.6b1f7fcdb1a6ad653a67.png",
+    "index.html": "/memory-card/index.html",
+    "main.09ff9196.css.map": "/memory-card/static/css/main.09ff9196.css.map",
+    "main.3d8bca44.js.map": "/memory-card/static/js/main.3d8bca44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09ff9196.css",
+    "static/js/main.3d8bca44.js"
+  ]
+}
